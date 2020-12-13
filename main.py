@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # SimplePLA Class - A over engineered implementation of Perceptron Learning Algorithm
 class SimplePLA(object):
-    # Constructor - with default threshold 200 and learning rate 0.01
+    # Constructor - with default threshold 100 and learning rate 0.01
     def __init__(self, number_of_inputs: int, threshold=100, learning_rate=0.01):
         # settings
         self.number_of_inputs = number_of_inputs
